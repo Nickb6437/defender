@@ -13,7 +13,7 @@ require('@tinypixelco/laravel-mix-wp-blocks');
  */
 
 mix
-  .setPublicPath('./web')
+  .setPublicPath('./public')
   .browserSync('defender.test');
 
 mix
